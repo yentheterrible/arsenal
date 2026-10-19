@@ -9,7 +9,7 @@ local TeleportService = game:GetService("TeleportService")
 local LocalPlayer = Players.LocalPlayer
 assert(LocalPlayer, "This client script must run after the local player is available")
 
-local UI_SOURCE_URL = "https://raw.githubusercontent.com/yentheterrible/ui/refs/heads/main/init.lua"
+local UI_SOURCE_URL = "https://raw.githubusercontent.com/yentheterrible/havoc-lib/refs/heads/main/init.lua"
 assert(type(loadstring) == "function", "This environment must provide loadstring to load the Havoc UI")
 local uiSource = game:HttpGet(UI_SOURCE_URL)
 assert(type(uiSource) == "string" and uiSource ~= "", "The Havoc UI request returned an empty response")
